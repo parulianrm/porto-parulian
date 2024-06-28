@@ -1,5 +1,6 @@
 
-# Parulian's Portfolio Welcome to my portfolio!
+# Parulian's Portfolio 
+Welcome to my portfolio!
 
 Welcome to my portfolio! This project showcases my work and skills using modern web development technologies. Built with Next.js, Tailwind CSS, and Framer Motion, it highlights my ability to create responsive, dynamic, and visually appealing web applications.
 
