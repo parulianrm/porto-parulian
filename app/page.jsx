@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
+import Stats from "@/components/Stats";
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
                     {/* Text */}
-                    <div className="">
+                    <div className="text-center xl:text-left">
                         <span className="text-xl">Web Developer</span>
                         <h1 className="h1">
                             Hello I'm <br />
@@ -38,10 +39,11 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Photo */}
-                    <div>photo</div>
+                    {/* Photo
+                    <div>photo</div> */}
                 </div>
             </div>
+            <Stats />
         </section>
     );
 };
