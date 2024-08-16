@@ -2,7 +2,6 @@
 
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 const services = [
     {
@@ -35,12 +34,14 @@ const services = [
     },
 ];
 
+import { motion } from "framer-motion";
+
 const Services = () => {
     return (
         <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
             <div className="container mx-auto">
                 <motion.div
-                    initial={{ opcacity: 0 }}
+                    initial={{ opacity: 0 }}
                     animate={{
                         opacity: 1,
                         transition: {
