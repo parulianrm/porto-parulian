@@ -1,5 +1,8 @@
-const Resume = () => {
-  return <div>Resume age</div>;
-}
+"use client";
+import Link from "next/link";
 
-export default Resume
+const page = () => {
+    return <div>page</div>;
+};
+
+export default page;
