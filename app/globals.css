@@ -1,29 +1,44 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
 
-  @layer base {
-   body {
+@layer base {
+  body {
     @apply font-primary bg-primary text-white leading-loose;
-   }
+  }
 
-   .h1 {
-    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
-   }
-   .h2 {
-    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
-   }
-   .h3 {
+  #hero-wave {
+    display: block; /* Mengatur agar SVG ditampilkan sebagai blok */
+    margin: 0 auto; /* Mengatur margin otomatis untuk memusatkan SVG */
+    width: 100%; /* Mengatur lebar SVG agar responsif */
+    max-width: 633px; /* Mengatur lebar maksimum sesuai dengan lebar asli SVG */
+    height: auto; /* Mengatur tinggi otomatis untuk menjaga rasio aspek */
+    opacity: 1; /* Mengatur opasitas */
+  }
+
+  .hero-wave-container {
+    position: relative; /* Mengatur posisi relatif untuk kontainer */
+    overflow: hidden; /* Menyembunyikan bagian yang melampaui batas kontainer */
+    background-color: #06b6d4; /* Mengatur warna latar belakang sesuai dengan warna gradient */
+  }
+
+  .h1 {
+    @apply text-[36px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+
+  .h2 {
+    @apply text-[30px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+
+  .h3 {
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
-   }
-   .text-outline {
+  }
+
+  .text-outline {
     -webkit-text-stroke: 1px #ffffff;
   }
 
   .text-outline-hover {
-    -webkit-text-stroke: 1px #00ff99;
+    -webkit-text-stroke: 1px #a0d683;
   }
-  }
-
-  
+}
